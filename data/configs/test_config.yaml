@@ -1,0 +1,8 @@
+# Path to my dataset
+path:
+train:
+val: 'images/test'
+
+# Ship detection only
+names:
+  0: ship 

@@ -1,0 +1,11 @@
+# Essential packages for DIOR Object Detection with YOLOv8
+gdown>=4.7.1
+ultralytics>=8.0.0
+numpy>=1.21.0
+pandas>=1.3.0
+tqdm>=4.64.0
+opencv-python>=4.6.0
+matplotlib>=3.5.0
+pillow>=9.0.0
+pyyaml>=5.4.0
+

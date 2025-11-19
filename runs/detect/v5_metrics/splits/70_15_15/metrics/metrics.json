@@ -1,0 +1,19 @@
+{
+  "split": "70/15/15 (3-way)",
+  "version": "V5",
+  "training_metrics": {
+    "epochs": 50,
+    "final_f1": 0.4984048790427938,
+    "final_accuracy": 0.52913238264349,
+    "final_precision": 0.4758769058371015,
+    "final_recall": 0.5179374322407122,
+    "final_train_loss": 0.7639967093703249,
+    "final_val_loss": 1.0484980380160716
+  },
+  "evaluation_metrics": {
+    "accuracy": 0.7002999999999999,
+    "precision": 0.475,
+    "recall": 0.6333333333333333,
+    "f1": 0.5428566530616663
+  }
+}

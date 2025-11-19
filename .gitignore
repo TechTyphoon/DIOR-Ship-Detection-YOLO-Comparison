@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Dataset and raw data (exclude large image folders)
+datasets/
+raw_data/
+test_data/
+yolov5/
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# Large model files (keep only source code, exclude trained weights)
+models/*.pt
+*.pt
+*.weights
+*.pth
+
+# Generated runs (keep only metrics/comparisons, not training artifacts)
+runs/detect/*/weights/
+runs/detect/*/events.out*
+runs/detect/*/labels/
+runs/*/detect/train*/
+runs/detect/detect/
+
+# Temporary files
+*.tmp
+*.log
+*.pyc
+.cache/
+
+# OS specific
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# PyCharm
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Package files
+dist/
+build/
+*.egg-info/

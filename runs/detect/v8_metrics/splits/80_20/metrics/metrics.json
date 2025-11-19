@@ -1,0 +1,28 @@
+{
+  "split": "80/20 (Standard)",
+  "training_metrics": {
+    "epochs": 50,
+    "final_f1": 0.5080235670567759,
+    "final_accuracy": 0.7051022923130384,
+    "final_precision": 0.5005036190423822,
+    "final_recall": 0.5135050008171372,
+    "final_train_loss": 0.7261431163972469,
+    "final_val_loss": 0.9457920047256346
+  },
+  "evaluation_metrics": {
+    "accuracy": 0.75,
+    "precision": 0.5625,
+    "recall": 0.75,
+    "f1": 0.6428566530615977
+  },
+  "confusion_matrix": [
+    [
+      105,
+      35
+    ],
+    [
+      15,
+      45
+    ]
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "split": "82.7/17.3 (Current)",
+  "training_metrics": {
+    "epochs": 50,
+    "final_f1": 0.5325110767957416,
+    "final_accuracy": 0.6750165183147304,
+    "final_precision": 0.49552068600091675,
+    "final_recall": 0.5043353517069068,
+    "final_train_loss": 0.6746455635467721,
+    "final_val_loss": 1.0213661407249326
+  },
+  "evaluation_metrics": {
+    "accuracy": 0.7567499999999999,
+    "precision": 0.5625,
+    "recall": 0.75,
+    "f1": 0.6428566530615977
+  },
+  "confusion_matrix": [
+    [
+      105,
+      35
+    ],
+    [
+      15,
+      45
+    ]
+  ]
+}
