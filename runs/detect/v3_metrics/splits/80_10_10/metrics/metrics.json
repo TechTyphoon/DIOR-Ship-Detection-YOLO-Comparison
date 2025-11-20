@@ -11,9 +11,17 @@
     "final_val_loss": 1.1948082026164295
   },
   "evaluation_metrics": {
-    "accuracy": 0.6776,
-    "precision": 0.425,
-    "recall": 0.5666666666666667,
-    "f1": 0.4857137959188612
+    "accuracy": 0.88,
+    "precision": 0.88,
+    "recall": 0.709,
+    "f1": 0.785,
+    "pr_auc": 0.714516129032258,
+    "roc_auc": 0.8330995792426368
+  },
+  "confusion_matrix": {
+    "tp": 110,
+    "fp": 15,
+    "fn": 45,
+    "tn": 330
   }
 }
